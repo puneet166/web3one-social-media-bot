@@ -1,1 +1,15 @@
-
+{  "name": "web3one-social-media-bot",
+  "version": "1.0.0",
+  "description": "Automated daily social media posting for Web3One — runs on GitHub Actions, no server needed.",
+  "main": "post.js",
+  "scripts": {
+    "post": "node post.js",
+    "test": "echo 'Set all env vars then run: node post.js'"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
